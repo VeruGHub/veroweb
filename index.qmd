@@ -1,32 +1,27 @@
 ---
-title: "Finley Malloc"
+title: "Verónica Cruz-Alonso"
 about:
-  template: trestles
-  image: avatar.jpg
+  template: trestles #plantilla
+  image: 2021.jpg
   links:
     - icon: envelope
       # text: email
-      href: "mailto: test@example.com"
-    - icon: mastodon
-      href: https://joinmastodon.org
-    - text: "{{< iconify fa6-brands bluesky title='BlueSky'>}}"
-      href: https://bsky.app
+      href: "mailto: veronica.cral@gmail.com"
+    # - icon: mastodon
+    #   href: https://joinmastodon.org
+    # - text: "{{< iconify fa6-brands bluesky title='BlueSky'>}}"
+    #   href: https://bsky.app
     - text: "{{< iconify fa6-brands x-twitter title='Twitter'>}}"
-      href: https://x.com
+      href: https://x.com/Veruitter
     - icon: github
-      href: https://github.com
-    - icon: linkedin
-      href: https://linkedin.com/
+      href: https://github.com/VeruGHub
+    # - icon: linkedin
+    #   href: https://linkedin.com/
     - text: "{{< iconify academicons google-scholar-square size=1.2em title='Scholar'>}}"
-      href: https://scholar.google.com
+      href: https://scholar.google.es/citations?user=mdktyS4AAAAJ&hl=es
     - text: "{{< iconify fa6-brands orcid size=1.2em title='ORCID' >}}"
-      href: https://orcid.org/
-    # - icon: twitter
-    #   text: twitter
-    #   href: https://twitter.com
-    # - icon: github
-    #   text: Github
-    #   href: https://github.com
+      href: https://orcid.org/0000-0002-0642-036X
+
 ---
 
 Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
