@@ -17,7 +17,7 @@ execute:
 #| warning: false
 #| message: false
 
-library(scholar)
+source("R/publication_cache.R")
 
 id_scholar <- "mdktyS4AAAAJ"
 
@@ -42,23 +42,8 @@ revistas_articulos <- c(
   "Scientific Data"
 )
 
-# Mantiene la tabla de publicaciones separada de las cadenas de autores.
-publicaciones <- scholar::get_publications(
-  id_scholar,
-  pagesize = 100,
-  flush = FALSE
-)
-
-columnas <- c("title", "author", "journal", "year", "pubid")
-if (!is.data.frame(publicaciones) ||
-    !all(columnas %in% names(publicaciones)) ||
-    nrow(publicaciones) == 0L) {
-  stop(
-    "Google Scholar no devolvió una tabla de publicaciones válida. ",
-    "Revisa la conexión y la versión de scholar. Tipo recibido: ",
-    paste(class(publicaciones), collapse = ", ")
-  )
-}
+# La vista previa nunca consulta Google Scholar.
+publicaciones <- leer_publicaciones()
 
 # Comprueba si la revista pertenece a la lista de revistas científicas
 es_revista_de_articulo <- function(revista) {
@@ -92,24 +77,6 @@ articulos <- articulos[
   order(-as.numeric(articulos$year)),
 ]
 
-# Completa únicamente las listas truncadas; un fallo conserva los autores originales.
-truncadas <- which(
-  !is.na(articulos$author) &
-  grepl("\\.\\.\\.|…", articulos$author)
-)
-for (i in truncadas) {
-  completos <- tryCatch(
-    scholar::get_complete_authors(
-      id_scholar, articulos$pubid[i], delay = 1, initials = FALSE
-    ),
-    error = function(e) NA_character_
-  )
-  if (is.character(completos) && length(completos) == 1L &&
-      !is.na(completos) && nzchar(trimws(completos))) {
-    articulos$author[i] <- completos
-  }
-}
-
 # Una sola sustitución evita volver a resaltar el nombre ya formateado.
 resaltar_autora <- function(autores) {
   if (is.na(autores)) return("")
@@ -141,6 +108,13 @@ for (i in seq_len(nrow(articulos))) {
     ":",
     p$pubid
   )
+
+  if (is.na(p$pubid) || !nzchar(p$pubid)) {
+    enlace <- paste0(
+      "https://scholar.google.com/scholar?q=",
+      utils::URLencode(p$title, reserved = TRUE)
+    )
+  }
 
   autores <- resaltar_autora(p$author)
 
