@@ -4,13 +4,6 @@ toc: true
 toc-title: "Secciones"
 ---
 
-```text
-posters/
-├── 2023-congreso-ecologia.pdf
-├── 2024-congreso-restauracion.pdf
-└── 2025-congreso-bosques.pdf
-```
-
 ```{r}
 #| echo: false
 #| results: asis
