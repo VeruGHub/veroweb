@@ -1,13 +1,16 @@
 project:
   type: website
-  # output-dir: docs
+  render:
+    - index.qmd
+    - Projects.qmd
+    - Publications.qmd
 
 
 website:
-  title: "My website"
-  description: "I am a scientist"
-  site-url: https://pakillo.github.io/academic-website-template-Quarto
-  repo-url: https://github.com/Pakillo/academic-website-template-Quarto
+  title: "Verónica Cruz-Alonso"
+  description: "Web personal de Verónica Cruz-Alonso"
+  site-url: https://VeruGHub.github.io/veroweb/
+  repo-url: https://github.com/VeruGHub/veroweb
   # favicon: logo.png
   twitter-card: true
   #   creator: "@handle"
@@ -22,10 +25,9 @@ website:
   navbar:
     right:
       - href: index.qmd
-        text: Home
+        text: Inicio
       - Projects.qmd
       - Publications.qmd
-      - Blog.qmd
 
       # - icon: mastodon
       #   href: https://joinmastodon.org
@@ -41,16 +43,16 @@ website:
       #   href: https://scholar.google.com
       # - text: "{{< iconify fa6-brands orcid size=1.2em title='ORCID' >}}"
       #   href: https://orcid.org/
-      - icon: rss
-        href: index.xml
       # - icon: twitter
       #   href: https://twitter.com
 
   page-footer:
-    background: light
-    right: "Made with Quarto"
+    background: "#CBBAB5"
+    right: "Hecho con Quarto"
   # back-to-top-navigation: true
 
+
+lang: es
 
 format:
   html:
