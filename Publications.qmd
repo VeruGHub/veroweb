@@ -1,15 +1,107 @@
 ---
-title: "Publications"
+title: "Publicaciones"
 toc: true
+toc-title: "Secciones"
 ---
 
-### Articles
+## Artículos {#articulos}
 
-- Quintero, Rodríguez‐Sánchez, Jordano (2022) [Reciprocity and interaction effectiveness in generalised mutualisms among free‐living species](https://doi.org/10.1111/ele.14141). *Ecology Letters* 26 (1): 132-146. [[PDF](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ele.14141)]
+[Ver perfil en Google Académico](https://scholar.google.com/citations?user=mdktyS4AAAAJ&hl=es)
 
-- Rodríguez-Sanchez, Pérez-Luque, Bartomeus, Varela (2016) [Ciencia reproducible: ¿qué, por qué, cómo?](https://doi.org/10.7818/ECOS.2016.25-2.11). *Ecosistemas* 25 (2): 83-92
+<!-- scholar:start -->
 
-### Book chapters
+- Rodríguez, Paula; Alonso, Verónica Cruz; Romano, Silvina; Bustamante, Gimena; Soler, Rosina (2026). Context-dependent effects of livestock grazing on forest attributes and ecosystem multifunctionality in Nothofagus forests. *Agriculture, Ecosystems & Environment*, 400, 110219.
 
+- Bravo-Hernández, Miriam; Astigarraga, Julen; Suvanto, Susanne; Grajera-Antolín, Cristina; Rodríguez-Rey, Marta; Vilà-Cabrera, Albert; Pugh, Thomas AM; Zavala, Miguel A; Esquivel-Muelbert, Adriane; Tijerín-Triviño, Julián, et al. (2026). Contrasting trends in forest growth and mortality of major European tree species under increasing climatic stress. *bioRxiv*, 2026–05. **Preprint.**
 
+- Hernandez-Mateo, Laura; Sobral, Mar; Molina-Morales, Mecedes; Bartomeus, Ignasi; Jiménez-Eguizábal, Leyre; Alarcón-Ríos, Lucía; Astigarraga, Julen; Bastias, Cristina C; Benavides, Raquel; Bravo, Carolina, et al. (2026). Los próximos pasos de Ecosistemas para una ciencia abierta, inclusiva y universal. *Ecosistemas*, 35 (1), 3236–3236.
 
+- Chaves, Rafael B; Meli, Paula; Hua, Fangyuan; Cruz-Alonso, Verónica; Brancalion, Pedro HS; Downey, Harriet; Lemma, Yigremachew S; Wauchope, Hannah S; Kwarteng, David A; Riach, Anna Christian, et al. (2026). Ten rules for using evidence to guide ecosystem restoration. *Journal of Applied Ecology*, 63 (9), e70520.
+
+- Su, Yang; Schwartz, Martin; Fayad, Ibrahim; García, Mariano; Zavala, Miguel A; Tijerín-Triviño, Julián; Astigarraga, Julen; Cruz-Alonso, Verónica; Liu, Siyu; Zhang, Xianglin, et al. (2025). Canopy height and biomass distribution across the forests of Iberian Peninsula. *Scientific Data*, 12 (1), 678.
+
+- Rebollo, Pedro; Cruz-Alonso, Verónica; Ruiz-Benito, Paloma; Triviño, María; Astigarraga, Julen; González-Díaz, Patricia; Zavala, Miguel A; Andivia, Enrique (2025). Diversity modulates above-ground productivity in response to disturbances: The case of Iberian forests. *Journal of Ecology*, 113 (12), 3605–3621.
+
+- Ureña-Lara, Carmen; Pérez-Corona, M Esther; Cruz-Alonso, Veronica; Herrero, Asier; Andivia, Enrique (2025). Does aridity modulate species mixing effects on growth response to drought in pine-oak forests in Mediterranean mountains?. *Forest Ecology and Management*, 593, 122905.
+
+- Tijerín-Triviño, Julián; Lines, Emily R; Zavala, Miguel A; Garcia, Mariano; Astigarraga, Julen; Cruz-Alonso, Verónica; Dahlgren, Jonas; Ruiz-Benito, Paloma (2025). Forest productivity decreases in response to recent changes in vegetation structure and climate in the latitudinal extremes of the European continent. *Global Ecology and Biogeography*, 34 (2), e70011.
+
+- Rebollo, Pedro; Ruiz-Benito, Paloma; Andivia, Enrique; Zavala, Miguel A; Astigarraga, Julen; Suvanto, Susanne; Cruz-Alonso, Verónica (2025). Harvesting effects on forest condition indicators across Iberian forests: Implications for the EU Nature Restoration Regulation. *bioRxiv*, 2025–12. **Preprint.**
+
+- Castro-Díez, Pilar; Lázaro-Lobo, Adrián; Fernandez, Romina D; Alonso, Álvaro; Cruces, Paula; Cruz-Alonso, Verónica; Ervin, Gary N; Gallardo, Antonio; Granda, Elena; Gómez-Gras, Daniel, et al. (2025). How does the enhancement of carbon sequestration by non-native forests affect other ecosystem services?. *New Forests*, 56 (6), 66.
+
+- Tijerín-Triviño, Julián; Serra-Maluquer, Xavier; García-Valdés, Raúl; Zavala, Miguel Ángel; García, Mariano; Astigarraga, Julen; Cruz-Alonso, Verónica; Rebollo, Pedro; Gazol, Antonio; Rodes-Blanco, Marina, et al. (2025). Hydraulic Strategies Modulate Forest Productivity Responses to Hotter Droughts. *Global Change Biology*, 31 (7), e70369.
+
+- Miltiadou, Milto; Grieve, Stuart; Ruiz-Benito, Paloma; Astigarraga, Julen; Cruz-Alonso, Verónica; Triviño, Julián Tijerín; Lines, Emily R (2025). PlotToSat: A tool for generating time-series signatures from Sentinel-1 and Sentinel-2 at field-based plots for machine learning applications. *Environmental Modelling & Software*, 188, 106395.
+
+- Cruz-Alonso, Verónica; Ruiz-Benito, Paloma; Andivia, Enrique; Rey-Benayas, José María; Villar-Salvador, Pedro (2025). The effect of shrubs on tree recruitment differs between planted and secondary forests. *Forest Ecology and Management*, 598, 123199.
+
+- Repeto-Deudero, Irene; Ojeda, Fernando; Gómez-González, Susana; Miranda, Alejandro; Cruz-Alonso, Verónica; Pausas, Juli G (2025). The legacy of pine plantations on fire severity. *Journal of Applied Ecology*, 62 (11), 3156–3168.
+
+- Lázaro-Lobo, Adrián; Fernandez, Romina D; Alonso, Alvaro; Cruces, Paula; Cruz-Alonso, Verónica; Ervin, Gary N; Gallardo, Antonio; Granda, Elena; Gómez-Gras, Daniel; Marchante, Hélia, et al. (2025). Worldwide comparison of carbon stocks and fluxes between native and non-native forests. *Biological Reviews*, 100 (3), 1105–1126.
+
+- Rodríguez-Uña, Asun; Cruz-Alonso, Verónica; López-López, José A; Moreno-Mateos, David (2024). Centennial recovery of recent human-disturbed forests. *bioRxiv*, 2024–07. **Preprint.**
+
+- Bartomeus, Ignasi; Mateo, Laura Hernández; Jiménez-Eguizábal, Leyre; Molina-Morales, Mercedes; Sobral, Mar; Benavides, Raquel; Bastias, Cristina C; Pérez-Luque, Antonio Jesús; Garrido-Bautista, Jorge; Villellas, Jesús, et al. (2024). Ecosistemas consolida su apuesta por un sistema de publicación abierto y justo avanzando hacia su internacionalización. *Ecosistemas*, 33 (1), 2734–2734.
+
+- Rebollo, Pedro; Moreno-Fernández, Daniel; Cruz-Alonso, Verónica; Gazol, Antonio; Rodríguez-Rey, Marta; Astigarraga, Julen; Zavala, Miguel A; Gómez-Aparicio, Lorena; Andivia, Enrique; Miguel-Romero, Sofía, et al. (2024). Recent increase in tree damage and mortality and their spatial dependence on drought intensity in Mediterranean forests. *Landscape Ecology*, 39 (3), 38.
+
+- Mateo, Laura Hernández; Jiménez-Eguizábal, Leyre; Bartomeus, Ignasi; Morales, Mecedes Molina; Sobral, Mar; Benavides, Raquel; Bastias, Cristina C; Pérez-Luque, Antonio Jesús; Garrido-Bautista, Jorge; Villellas, Jesús, et al. (2024). Reconocimiento a revisoras, revisores y editoras, editores invitados de ECOSISTEMAS del año 2023. *Ecosistemas*, 33 (1), 2744–2744.
+
+- Medina-Villar, Silvia; Pérez-Corona, M Esther; Herrero, Asier; Cruz-Alonso, Verónica; Carro-Martinez, Noelia; Andivia, Enrique (2024). The alien conifer Cupressus arizonica can outcompete native pines in Mediterranean mixed forests under climate change. *NeoBiota*, 92, 211–231.
+
+- Cruz-Alonso, Verónica; Martínez-Baroja, Loreto; Marqués, Laura; Rodríguez-Uña, Asun; Rohrer, Zoë; Monteagudo, Navila; Velado-Alonso, Elena (2023). Gender bias in ecosystem restoration: from science to practice. *Restoration Ecology*, 31 (4), e13815.
+
+- Soler, Rosina; Bustamante, Gimena; Cruz-Alonso, Verónica; Lenzner, Bernd; Essl, Franz (2023). Herbivores regulate native–alien plants dynamics in sub-Antarctic beech (Nothofagus antarctica) forests of Tierra del Fuego, Argentina. *Applied Vegetation Science*, 26 (2), e12721.
+
+- Ruggirello, Matthew Joseph; Bustamante, Gimena; Rodriguez, Paula; Cruz-Alonso, Verónica; Soler, Rosina (2023). Post-fire forest recovery at high latitudes: tree regeneration dominated by fire-adapted, early-seral species increases with latitude. *Annals of Forest Science*, 80 (1), 47.
+
+- Lázaro-Lobo, Adrián; Ruiz-Benito, Paloma; Cruz-Alonso, Verónica; Castro-Díez, Pilar (2023). Quantifying carbon storage and sequestration by native and non-native forests under contrasting climate types. *Global Change Biology*, 29 (16), 4530–4542.
+
+- Cruz-Alonso, Verónica; Pucher, Christoph; Ratcliffe, Sophia; Ruiz-Benito, Paloma; Astigarraga, Julen; Neumann, Mathias; Hasenauer, Hubert; Rodríguez-Sánchez, Francisco (2023). The easyclimate R package: Easy access to high-resolution daily climate data for Europe. *Environmental Modelling & Software*, 161, 105627.
+
+- Cruz-Alonso, V; Musálem, K; Mongil-Manso, J; Viñegla, F; Insfrán, A; Rey-Benayas, JM (2022). Enhanced infiltration by trees in floodable cattle ranches in Paraguay. *Agroforestry Systems*, 96 (5), 843–855.
+
+- Astigarraga, Julen; Cruz-Alonso, Verónica (2022). ¡ Se puede entender cómo funcionan Git y GitHub!. *Ecosistemas*, 31 (1), 2332–2332.
+
+- Cruz-Alonso, Verónica; Espelta, Josep Maria; Pino, Joan (2021). Woody species richness and turnover in expanding Mediterranean forests: a story of landscape legacies influenced by climatic aridity. *Landscape Ecology*, 36 (6), 1787–1800.
+
+- Astigarraga, Julen; Andivia, Enrique; Zavala, Miguel A; Gazol, Antonio; Cruz-Alonso, Verónica; Vicente-Serrano, Sergio M; Ruiz-Benito, Paloma (2020). Evidence of non-stationary relationships between climate and forest responses: Increased sensitivity to climate change in Iberian forests. *Global Change Biology*, 26 (9), 5063–5076.
+
+- Rodríguez-Uña, Asun; Cruz-Alonso, Verónica; Rohrer, Zoë; Martínez-Baroja, Loreto (2020). Fresh perspectives for classic forest restoration challenges. *Restoration Ecology*, 28 (1), 12–15.
+
+- Espelta, Josep Maria; Cruz-Alonso, Verónica; Alfaro-Sánchez, Raquel; Hampe, Arndt; Messier, Christian; Pino, Joan (2020). Functional diversity enhances tree growth and reduces herbivory damage in secondary broadleaf forests, but does not influence resilience to drought. *Journal of Applied Ecology*, 57 (12), 2362–2372.
+
+- Cruz-Alonso, Verónica; Villar-Salvador, Pedro; Ruiz-Benito, Paloma; Ibáñez, Inés; Rey-Benayas, José M (2020). Long-term dynamics of shrub facilitation shape the mixing of evergreen and deciduous oaks in Mediterranean abandoned fields. *Journal of Ecology*, 108 (3), 1125–1137.
+
+- Cruz-Alonso, Verónica; Ruiz-Benito, Paloma; Villar-Salvador, Pedro; Rey-Benayas, José María (2019). Long-term recovery of multifunctionality in Mediterranean forests depends on restoration strategy and forest type. *Journal of Applied Ecology*, 56 (3), 745–757.
+
+- Ruiz-Benito, Paloma; Villar-Salvador, Pedro; Pardos, Marta; Herrero, Asier; Cruz-Alonso, Verónica; Andivia, Enrique (2019). “Bases ecológicas para la gestión adaptativa de sistemas forestales”, IV reunión del Grupo de Trabajo de Ecología, Ecofisiología y Suelos Forestales de la Sociedad Española de Ciencias Forestales. *Ecosistemas*, 28 (2), 120–121.
+
+- González, Ana María Merenciano; Musálem, Karim; Laino, Rafaela; Benayas, José María Rey; Alonso, Verónica Cruz; Cordero, Zoraya El Raiss; Moreno, Viviana Brun; Otazu, Pabla Chaparro; Valenzuela, Andrea Lubián; González, Jorge Daniel, et al. (2018). Servicios ecosistémicos en el Chaco Húmedo Paraguayo: retos para el manejo basado en los ecosistemas. *Revista Ecosistemas*, 27 (2), 115–125.
+
+- Ruiz-Benito, Paloma; Andivia, Enrique; Archambeaou, Juliette; Astigarraga, Julen; Barrientos, Rafael; Cruz-Alonso, Verónica; Florencio, Margarita; Gómez, Daniel; Martínez-Baroja, Loreto; Quiles, Pablo, et al. (2018). Ventajas de la estadística bayesiana frente a la frecuentista:¿ por qué nos resistimos a usarla?. *Ecosistemas*, 27 (2), 136–139.
+
+- Mongil-Manso, J; Navarro-Hevia, J; Díaz-Gutiérrez, V; Cruz-Alonso, V; Ramos-Díez, I (2016). Badlands forest restoration in Central Spain after 50 years under a Mediterranean-continental climate. *Ecological Engineering*, 97, 313–326.
+
+- Sal, A Gómez; de Baroja, L Martínez; Madrigal, J; Marques, L; Ruiz, M Marvá; Molina-Venegas, R; Pataro, L; Camacho, L Pérez; de la Torre, S Rebollo; Benayas, JM Rey, et al. (2016). Estudio, gestión, conservación y restauración de ecosistemas ante el cambio global: 1º Jornadas FORECO en la Universidad de Alcalá. *Ecosistemas*, 25 (1), 113.
+
+- Manso, Jorge Mongil; Hevia, Joaquín Navarro; Gutiérrez, Virginia Díaz; Alonso, Verónica Cruz (2015). Nuevo infiltrómetro inundador para test de infiltración económico en terrenos agroforestales y espacios verdes. *Cuadernos de la Sociedad Española de Ciencias Forestales*, (41), 281–290.
+
+- Manso, Jorge Mongil; Hevia, Joaquín Navarro; Alonso, Verónica Cruz; Gutiérrez, Virginia Díaz (2013). Destrucción y restauración de la cubierta forestal en la cuenca alta del río Corneja (Ávila: análisis histórico de un proceso de gestión cambiante. *Cuadernos de la Sociedad Española de Ciencias Forestales*, (38), 107–114.
+
+<!-- scholar:end -->
+
+## Libros {#libros}
+
+### Capítulos de libro
+
+- Cruz-Alonso, Verónica; Andivia, Enrique; Castro-Díez, Pilar; Lázaro-Lobo, Adrián; Kaplan, Gordana; Nielsen, Anders Tærø; Puchałka, Radosław; Klisz, Marcin; Madsen, Palle (2026). Impact of planted forests on climate change mitigation. *En Guidelines for Climate Adaptive Forest Restoration and Reforestation Projects*, 353–382.
+
+## Pósters {#posters}
+
+Próximamente.
+
+## Material docente {#material-docente}
+
+Próximamente.

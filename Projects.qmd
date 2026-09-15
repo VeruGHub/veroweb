@@ -1,10 +1,7 @@
 ---
-title: "Projects"
-listing:
-  contents: projects
-  type: grid
-  categories: false
+title: "Proyectos"
 ---
 
+Próximamente.
 
-
+<!-- Añadir los proyectos de Verónica antes de activar el listado. -->

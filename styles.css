@@ -1,1 +1,31 @@
-/* css styles */
+:root {
+  --piedra: #F3F0EB;
+  --pizarra: #3E414B;
+  --liquen: #D6D578;
+  --granito: #CBBAB5;
+  --gris-azulado: #7D899B;
+  --ocre: #94764F;
+  --bs-body-bg: var(--piedra);
+  --bs-body-color: var(--pizarra);
+  --bs-link-color: var(--pizarra);
+  --bs-link-hover-color: #665035;
+}
+body { background: var(--piedra); color: var(--pizarra); }
+.navbar { background: var(--pizarra) !important; }
+.navbar .navbar-brand, .navbar .nav-link { color: var(--piedra) !important; }
+.navbar .nav-link:hover, .navbar .nav-link.active { color: var(--liquen) !important; }
+.navbar .navbar-toggler { color: var(--piedra); border-color: var(--gris-azulado); }
+.navbar .navbar-toggler-icon { filter: brightness(0) invert(1); }
+h1, h2, h3 { color: var(--pizarra); }
+main h2 { border-bottom: 3px solid var(--liquen); padding-bottom: .5rem; margin-top: 2rem; }
+main a { color: var(--pizarra); text-decoration-color: var(--ocre); text-underline-offset: .2em; }
+main a:hover { color: #665035; text-decoration-thickness: 2px; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--ocre); outline-offset: 4px; }
+.navbar a:focus-visible, .navbar button:focus-visible { outline-color: var(--liquen); }
+#TOC a { color: var(--pizarra); }
+#TOC .nav-link.active { color: var(--pizarra) !important; border-left-color: var(--ocre) !important; font-weight: 600; }
+div.quarto-about-trestles .about-entity .about-link { color: var(--pizarra); border-color: var(--pizarra); }
+div.quarto-about-trestles .about-entity .about-link:hover { background: var(--liquen); }
+.nav-footer { background: var(--granito); color: var(--pizarra); }
+.nav-footer a { color: var(--pizarra); }
+::selection { background: var(--liquen); color: var(--pizarra); }
