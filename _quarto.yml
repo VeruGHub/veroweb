@@ -4,6 +4,8 @@ project:
     - index.qmd
     - Projects.qmd
     - Publications.qmd
+    - posters.qmd
+    - material_docente.qmd
 
 
 website:
@@ -27,8 +29,16 @@ website:
     right:
       - href: index.qmd
         text: Sobre mí
-      - Projects.qmd
-      - Publications.qmd
+      - href: Projects.qmd
+        text: Proyectos
+      - href: Publications.qmd
+        text: Publicaciones
+      - href: posters.qmd
+        text: Poster evolution
+      - href: material_docente.qmd
+        text: Material docente
+      - href: web.qmd
+        text: Sobre este sitio
 
       # - icon: mastodon
       #   href: https://joinmastodon.org

@@ -29,3 +29,50 @@ div.quarto-about-trestles .about-entity .about-link:hover { background: var(--li
 .nav-footer { background: var(--granito); color: var(--pizarra); }
 .nav-footer a { color: var(--pizarra); }
 ::selection { background: var(--liquen); color: var(--pizarra); }
+
+.poster-card {
+  display: inline-flex;
+  vertical-align: top;
+  flex-direction: column;
+  width: 30%;
+  min-width: 220px;
+  margin: 0 2% 2rem 0;
+  padding: 0.8rem;
+  background: #ffffff;
+  border: 1px solid #CBBAB5;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(62, 65, 75, 0.12);
+}
+
+.poster-card iframe {
+  width: 100%;
+  height: 280px;
+  border: 1px solid #D6D578;
+  border-radius: 4px;
+  background: #F3F0EB;
+  pointer-events: none;
+}
+
+.poster-card h3 {
+  min-height: 3rem;
+  margin: 0.8rem 0 0.5rem;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.poster-download {
+  color: #3E414B;
+  font-weight: 600;
+}
+
+.poster-download:hover {
+  color: #94764F;
+}
+
+@media (max-width: 768px) {
+  .poster-card {
+    display: flex;
+    width: 100%;
+    margin-right: 0;
+  }
+}

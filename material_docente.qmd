@@ -1,0 +1,16 @@
+---
+title: "Material docente"
+toc: true
+toc-title: "Secciones"
+---
+
+En [DatSciR](https://github.com/DatSciR) encontrarás todos los materiales de cursos y talleres que hemos impartido.
+
+Te dejo aquí algunos de los más completos:
+
+[Git y GitHub](https://scholar.google.com/citations?user=mdktyS4AAAAJ&hl=es)
+
+[Programación funcional en R](https://scholar.google.com/citations?user=mdktyS4AAAAJ&hl=es)
+
+[Ciencia de datos](https://scholar.google.com/citations?user=mdktyS4AAAAJ&hl=es)
+
