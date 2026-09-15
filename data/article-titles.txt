@@ -1,0 +1,40 @@
+Context-dependent effects of livestock grazing on forest attributes and ecosystem multifunctionality in Nothofagus forests
+Contrasting trends in forest growth and mortality of major European tree species under increasing climatic stress
+Los próximos pasos de Ecosistemas para una ciencia abierta, inclusiva y universal
+Ten rules for using evidence to guide ecosystem restoration
+Canopy height and biomass distribution across the forests of Iberian Peninsula
+Diversity modulates above-ground productivity in response to disturbances: The case of Iberian forests
+Does aridity modulate species mixing effects on growth response to drought in pine-oak forests in Mediterranean mountains?
+Forest productivity decreases in response to recent changes in vegetation structure and climate in the latitudinal extremes of the European continent
+Harvesting effects on forest condition indicators across Iberian forests: Implications for the EU Nature Restoration Regulation
+How does the enhancement of carbon sequestration by non-native forests affect other ecosystem services?
+Hydraulic Strategies Modulate Forest Productivity Responses to Hotter Droughts
+PlotToSat: A tool for generating time-series signatures from Sentinel-1 and Sentinel-2 at field-based plots for machine learning applications
+The effect of shrubs on tree recruitment differs between planted and secondary forests
+The legacy of pine plantations on fire severity
+Worldwide comparison of carbon stocks and fluxes between native and non-native forests
+Centennial recovery of recent human-disturbed forests
+Ecosistemas consolida su apuesta por un sistema de publicación abierto y justo avanzando hacia su internacionalización
+Recent increase in tree damage and mortality and their spatial dependence on drought intensity in Mediterranean forests
+Reconocimiento a revisoras, revisores y editoras, editores invitados de ECOSISTEMAS del año 2023
+The alien conifer Cupressus arizonica can outcompete native pines in Mediterranean mixed forests under climate change
+Gender bias in ecosystem restoration: from science to practice
+Herbivores regulate native–alien plants dynamics in sub-Antarctic beech (Nothofagus antarctica) forests of Tierra del Fuego, Argentina
+Post-fire forest recovery at high latitudes: tree regeneration dominated by fire-adapted, early-seral species increases with latitude
+Quantifying carbon storage and sequestration by native and non-native forests under contrasting climate types
+The easyclimate R package: Easy access to high-resolution daily climate data for Europe
+Enhanced infiltration by trees in floodable cattle ranches in Paraguay
+¡ Se puede entender cómo funcionan Git y GitHub!
+Woody species richness and turnover in expanding Mediterranean forests: a story of landscape legacies influenced by climatic aridity
+Evidence of non-stationary relationships between climate and forest responses: Increased sensitivity to climate change in Iberian forests
+Fresh perspectives for classic forest restoration challenges
+Functional diversity enhances tree growth and reduces herbivory damage in secondary broadleaf forests, but does not influence resilience to drought
+Long-term dynamics of shrub facilitation shape the mixing of evergreen and deciduous oaks in Mediterranean abandoned fields
+Long-term recovery of multifunctionality in Mediterranean forests depends on restoration strategy and forest type
+“Bases ecológicas para la gestión adaptativa de sistemas forestales”, IV reunión del Grupo de Trabajo de Ecología, Ecofisiología y Suelos Forestales de la Sociedad Española de Ciencias Forestales
+Servicios ecosistémicos en el Chaco Húmedo Paraguayo: retos para el manejo basado en los ecosistemas
+Ventajas de la estadística bayesiana frente a la frecuentista:¿ por qué nos resistimos a usarla?
+Badlands forest restoration in Central Spain after 50 years under a Mediterranean-continental climate
+Estudio, gestión, conservación y restauración de ecosistemas ante el cambio global: 1º Jornadas FORECO en la Universidad de Alcalá
+Nuevo infiltrómetro inundador para test de infiltración económico en terrenos agroforestales y espacios verdes
+Destrucción y restauración de la cubierta forestal en la cuenca alta del río Corneja (Ávila: análisis histórico de un proceso de gestión cambiante

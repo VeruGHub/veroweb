@@ -1,25 +1,67 @@
+name: Actualizar publicaciones y publicar web
+
 on:
   workflow_dispatch:
   push:
-    branches: main
+    branches: [main]
+  schedule:
+    - cron: '23 7 * * 1'
 
-name: Quarto Publish
+concurrency:
+  group: web-publication
+  cancel-in-progress: false
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     permissions:
       contents: write
     steps:
-      - name: Check out repository
+      - name: Descargar repositorio
         uses: actions/checkout@v4
+        with:
+          ref: main
 
-      - name: Set up Quarto
+      - name: Preparar R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Instalar scholar
+        run: Rscript -e 'install.packages("scholar", repos = "https://cloud.r-project.org")'
+
+      - name: Actualizar artículos desde Google Scholar
+        run: Rscript -e 'source("R/scholar_pubs.R"); scholar_pubs("mdktyS4AAAAJ")'
+
+      - name: Guardar referencias pendientes de clasificación
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: referencias-pendientes
+          path: data/scholar-pending.csv
+          if-no-files-found: ignore
+
+      - name: Preparar Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render and Publish
+      - name: Comprobar renderizado
+        run: quarto render
+
+      - name: Conservar la última lista correcta
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Publications.qmd data/scholar-pending.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualizar publicaciones desde Google Scholar"
+            git push origin HEAD:main
+          fi
+
+      - name: Publicar web
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          render: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

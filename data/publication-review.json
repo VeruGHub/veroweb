@@ -1,0 +1,144 @@
+{
+  "pending_classification": [
+    {
+      "title": "PRIMEROS ESTUDIOS SOBRE RESTAURACIÓN DE ECOSISTEMAS EN LA FACULTAD DE CIENCIAS AGRARIAS DE LA UNIVERSIDAD NACIONAL DE ASUNCIÓN",
+      "author": "Insfrán, A and Cruz-Alonso, V and Viñegla, F and Aparicio, MJ and Amarilla, SM and Ibarra, JE",
+      "type": "article",
+      "key": "insfranprimeros",
+      "source_index": 1
+    },
+    {
+      "title": "Efectos sobre el suelo y la vegetación de la restauración de las cárcavas de Tórtoles (Ávila) después de 50 años",
+      "author": "Manso, Jorge Mongil and Hevia, Joaquín Navarro and Gutiérrez, Virginia Díaz and Alonso, Verónica Cruz and Díez, Iván Ramos",
+      "year": "2017",
+      "type": "article",
+      "key": "manso2017efectos",
+      "source_index": 9
+    },
+    {
+      "title": "Easyclimate: Easy access to high-resolution daily climate data for europe",
+      "author": "Cruz-Alonso, V and Rodríguez-Sánchez, F and Pucher, C and Ruiz-Benito, P and Astigarraga, J and Neumann, M and Ratcliffe, S",
+      "year": "2021",
+      "type": "misc",
+      "key": "cruz2021easyclimate",
+      "source_index": 22
+    },
+    {
+      "title": "Supplementary information\" Quantifying carbon storage and sequestration by native and non-native forests under contrasting climate types\"",
+      "author": "Lázaro Lobo, Adrián and Ruiz-Benito, Paloma and Cruz-Alonso, Verónica and Castro-Díez, Pilar",
+      "year": "2023",
+      "type": "article",
+      "key": "lazaro2023supplementary",
+      "source_index": 30
+    },
+    {
+      "title": "Long-term dynamics of forest recovery in mediterranean abandoned fields: outcomes, processes and drivers of contrasting restoration strategies",
+      "author": "Cruz Alonso, Verónica",
+      "year": "2019",
+      "school": "Universidad de Alcalá",
+      "type": "phdthesis",
+      "key": "cruz2019long",
+      "source_index": 32
+    },
+    {
+      "title": "Los bosques españoles como soluciones naturales frente al cambio climático: herramientas de análisis y modelización",
+      "author": "González Díaz, P and Ruiz Benito, P and Astigarraga Urcelay, J and Cruz Alonso, V and Moreno Fernández, D and Herrero Méndez, A and Gosálbez Ruiz, J and Zavala Gironés, MÁ",
+      "journal": "Oficina Española de Cambio Climático. Ministerio para la Transición Ecológica y el Reto Demográfico, Madrid",
+      "year": "2020",
+      "type": "article",
+      "key": "gonzalez2020bosques",
+      "source_index": 35
+    },
+    {
+      "title": "Reforzando la Limnología en el aprendizaje en Ecología",
+      "author": "Sánchez Montoya, María Del Mar and Morcillo Alonso, Felipe and Acosta Gallo, Belén and Andivia Muñoz, Enrique and García Mayor, Ángeles Pilar and López-Pintor Alcón, Antonio and Payo Payo, Ana and Rebollo Orozco, Pedro and Rovira Sanroque, José Vicente and Sánchez Nogueras, Judit and others",
+      "year": "2025",
+      "type": "article",
+      "key": "sanchez2025reforzando",
+      "source_index": 41
+    },
+    {
+      "title": "Large-scale forest responses to droughts using national forest inventories: a systematic review",
+      "author": "Ruiz-Benito, Paloma and Rodes-Blanco, Marina and Tijerín-Triviño, Julián and Rebollo, Pedro and Serra-Maluquer, Xavier and Astigarraga, Julen and Bravo-Hernández, Miriam and Cruz-Alonso, Verónica and Fernández-Blas, Cristopher and Grajera-Antolín, Cristina and others",
+      "journal": "EGU26",
+      "number": "EGU26-20335",
+      "year": "2026",
+      "publisher": "Copernicus Meetings",
+      "type": "article",
+      "key": "ruiz2026large",
+      "source_index": 48
+    },
+    {
+      "title": "Estimación de la edad de los bosques de la Península Ibérica a partir de datos de Inventario Forestal Nacional y de teledetección",
+      "author": "Blanco, Marina Rodes and Astigarraga, Julen and Pugh, Thomas AM and Alonso, Verónica Cruz and Miguel, Sofía and Hernández, Miriam Bravo and Antolín, Cristina Grajera and Triviño, Julián Tijerín and Zavala, Miguel A and Vayreda, Jordi and others",
+      "booktitle": "Teledetección multidisciplinar: Miradas diversas, soluciones comunes. XXI Congreso de la Asociación Española de Teledetección (AET)",
+      "pages": "485–489",
+      "year": "2026",
+      "organization": "Servicio de Publicaciones",
+      "type": "inproceedings",
+      "key": "blanco2026estimacion",
+      "source_index": 51
+    },
+    {
+      "title": "The Legacy of Pine Plantations on Fire Severity [Dataset]",
+      "author": "Repeto-Deudero, Irene and Ojeda, Fernando and Gómez-González, Susana and Miranda, Alejandro and Cruz-Alonso, Verónica and Pausas, JG",
+      "year": "2025",
+      "publisher": "Zenodo",
+      "type": "article",
+      "key": "repeto2025legacy",
+      "source_index": 53
+    },
+    {
+      "title": "Package ‘easyclimate’",
+      "author": "Cruz-Alonso, Verónica and Rodríguez-Sánchez, Francisco and Pucher, Christoph and Ruiz-Benito, Paloma and Astigarraga, Julen and Neumann, Mathias and Ratcliffe, Sophia and Cruz-Alonso, Maintainer Verónica",
+      "year": "2023",
+      "type": "article",
+      "key": "cruz2023package",
+      "source_index": 54
+    }
+  ],
+  "duplicate_language_versions": [
+    {
+      "title": "ECOSISTEMAS consolidates its commitment to an open and fair publishing system and moves towards its internationalization",
+      "author": "Bartomeus, Ignasi and Mateo, Laura Hernández and Jiménez Eguizábal, Leyre and Palencia Mayordomo, Pablo and others",
+      "journal": "Ecosistemas",
+      "year": "2024",
+      "type": "article",
+      "key": "bartomeus2024ecosistemas",
+      "source_index": 27
+    },
+    {
+      "title": "Acknowledgement to reviewers and guest editors of ECOSISTEMAS in the year 2023",
+      "author": "Hernández, Laura and Jiménez-Eguizábal, Leyre and Bartomeus, Ignasi and Molina-Morales, Mercedes and Sobral, Mar and Benavides, Raquel and Bastias, Cristina C and Pérez-Luque, AJ and Garrido-Bautista, Jorge and Villellas, Jesús and others",
+      "year": "2024",
+      "type": "article",
+      "key": "hernandez2024acknowledgement",
+      "source_index": 28
+    },
+    {
+      "title": "Acknowledgement to reviewers and guest editors of ECOSISTEMAS in the year 2023",
+      "author": "Mateo, Laura Hernández and Jiménez-Eguizábal, Leyre and Bartomeus, Ignasi and Molina-Morales, Mercedes and Sobral, Mar and Benavides, Raquel and Bastias, Cristina C and Pérez-Luque, Antonio Jesús and Garrido-Bautista, Jorge and Villellas, Jesús and others",
+      "journal": "Ecosistemas",
+      "volume": "33",
+      "number": "1",
+      "pages": "2744",
+      "year": "2024",
+      "publisher": "Asociacion Espanola de Ecologia Terrestre",
+      "type": "article",
+      "key": "mateo2024acknowledgement",
+      "source_index": 39
+    },
+    {
+      "title": "Ecosistemas’ next steps for an open, inclusive, and universal science",
+      "author": "Mateo, Laura Hernandez and Sobral, Mar and Molina-Morales, Mercedes and Bartomeus, Ignasi and Jiménez-Eguizábal, Leyre and Alarcón-Ríos, Lucia and Astigarraga, Julen and Bastias, Cristina C and Benavides, Raquel and Bravo, Carolina and others",
+      "journal": "Ecosistemas",
+      "volume": "35",
+      "number": "1",
+      "year": "2026",
+      "publisher": "Asociacion Espanola de Ecologia Terrestre",
+      "type": "article",
+      "key": "mateo2026ecosistemas",
+      "source_index": 52
+    }
+  ]
+}
