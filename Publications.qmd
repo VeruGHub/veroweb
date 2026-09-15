@@ -2,6 +2,8 @@
 title: "Publicaciones"
 toc: true
 toc-title: "Secciones"
+execute:
+  freeze: false
 ---
 
 ## Artículos {#articulos}
@@ -40,14 +42,23 @@ revistas_articulos <- c(
   "Scientific Data"
 )
 
-# Descarga las publicaciones y completa las listas de autores
-publicaciones <- scholar::get_publications_all_authors(
+# Mantiene la tabla de publicaciones separada de las cadenas de autores.
+publicaciones <- scholar::get_publications(
   id_scholar,
   pagesize = 100,
-  flush = TRUE,
-  delay = 0.8,
-  initials = FALSE
+  flush = FALSE
 )
+
+columnas <- c("title", "author", "journal", "year", "pubid")
+if (!is.data.frame(publicaciones) ||
+    !all(columnas %in% names(publicaciones)) ||
+    nrow(publicaciones) == 0L) {
+  stop(
+    "Google Scholar no devolvió una tabla de publicaciones válida. ",
+    "Revisa la conexión y la versión de scholar. Tipo recibido: ",
+    paste(class(publicaciones), collapse = ", ")
+  )
+}
 
 # Comprueba si la revista pertenece a la lista de revistas científicas
 es_revista_de_articulo <- function(revista) {
@@ -81,30 +92,41 @@ articulos <- articulos[
   order(-as.numeric(articulos$year)),
 ]
 
-# Pone tu nombre en negrita
-resaltar_autora <- function(autores) {
-  autores <- gsub(" and ", "; ", autores, fixed = TRUE)
-  autores <- gsub("\\.\\.\\.", "et al.", autores)
-
-  patrones <- c(
-    "Cruz-Alonso, Verónica",
-    "Cruz-Alonso, Veronica",
-    "Cruz-Alonso, V.",
-    "Cruz-Alonso, V",
-    "Verónica Cruz-Alonso",
-    "Veronica Cruz-Alonso"
+# Completa únicamente las listas truncadas; un fallo conserva los autores originales.
+truncadas <- which(
+  !is.na(articulos$author) &
+  grepl("\\.\\.\\.|…", articulos$author)
+)
+for (i in truncadas) {
+  completos <- tryCatch(
+    scholar::get_complete_authors(
+      id_scholar, articulos$pubid[i], delay = 1, initials = FALSE
+    ),
+    error = function(e) NA_character_
   )
-
-  for (patron in patrones) {
-    autores <- gsub(
-      patron,
-      "**Verónica Cruz-Alonso**",
-      autores,
-      fixed = TRUE
-    )
+  if (is.character(completos) && length(completos) == 1L &&
+      !is.na(completos) && nzchar(trimws(completos))) {
+    articulos$author[i] <- completos
   }
+}
 
-  autores
+# Una sola sustitución evita volver a resaltar el nombre ya formateado.
+resaltar_autora <- function(autores) {
+  if (is.na(autores)) return("")
+  nombre <- "(?:Ver[oó]nica|V\\.?)"
+  apellido <- "Cruz[- ]Alonso"
+  patron <- paste0(
+    "(?<![[:alpha:]])(?:",
+    apellido, ",?\\s+", nombre, "|",
+    nombre, "\\s+", apellido,
+    ")(?![[:alpha:]])"
+  )
+  autores <- gsub(" and ", "; ", autores, fixed = TRUE)
+  autores <- gsub(
+    patron, "**Verónica Cruz-Alonso**", autores,
+    perl = TRUE, ignore.case = TRUE
+  )
+  gsub("\\.\\.\\.|…", "et al.", autores)
 }
 
 # Genera las referencias en formato Markdown
