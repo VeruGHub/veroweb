@@ -6,6 +6,7 @@ project:
     - Publications.qmd
     - posters.qmd
     - material_docente.qmd
+    - web.qmd
 
 
 website:
@@ -37,6 +38,8 @@ website:
         text: Poster evolution
       - href: material_docente.qmd
         text: Material docente
+      - href: https://verughub.github.io/easyclimate/
+        text: easyclimate
       - href: web.qmd
         text: Sobre este sitio
 
