@@ -76,3 +76,33 @@ div.quarto-about-trestles .about-entity .about-link:hover { background: var(--li
     margin-right: 0;
   }
 }
+
+/* Retrato circular sin deformar la fotografía. */
+div.quarto-about-trestles .about-entity img.about-image {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Paleta Gredos: muestras con etiquetas legibles fuera del color. */
+.gredos-palette {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 2rem;
+}
+.gredos-color {
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+}
+.gredos-swatch {
+  display: block;
+  height: 110px;
+  border: 1px solid rgba(62, 65, 75, .25);
+  border-radius: .6rem;
+}
+.gredos-color-name { font-weight: 600; }
+.gredos-color code { color: var(--pizarra); background: transparent; padding: 0; }
