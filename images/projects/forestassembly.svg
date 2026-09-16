@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+<title id="title">Imagen provisional de ForestAssembly</title>
+<desc id="desc">Paisaje de ejemplo con la paleta Gredos. No representa el proyecto.</desc>
+<rect width="800" height="600" fill="#F3F0EB"/>
+<circle cx="640" cy="115" r="58" fill="#D6D578"/>
+<path d="M0 340 220 130 460 365 630 210 800 350V600H0Z" fill="#CBBAB5"/>
+<path d="M0 400 310 220 560 415 800 270V600H0Z" fill="#7D899B"/>
+<path d="M0 475Q200 365 430 450T800 420V600H0Z" fill="#3E414B"/>
+<g fill="#D6D578"><path d="m125 280-70 140h140Z"/><path d="m250 335-55 110h110Z"/><path d="m640 295-70 140h140Z"/></g>
+<g stroke="#94764F" stroke-width="12"><path d="M125 400v65"/><path d="M250 430v50"/><path d="M640 420v55"/></g>
+<rect x="240" y="514" width="320" height="52" rx="26" fill="#F3F0EB"/>
+<text x="400" y="548" text-anchor="middle" font-family="sans-serif" font-size="25" fill="#3E414B">Imagen de prueba</text>
+</svg>
