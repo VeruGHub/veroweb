@@ -106,3 +106,25 @@ div.quarto-about-trestles .about-entity img.about-image {
 }
 .gredos-color-name { font-weight: 600; }
 .gredos-color code { color: var(--pizarra); background: transparent; padding: 0; }
+
+/* Proyectos: imagen independiente y texto; una columna en móvil. */
+.project-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 1.5rem;
+  align-items: start;
+  margin: 1.5rem 0 2.5rem;
+}
+.project-entry > div { min-width: 0; }
+.project-visual p, .project-visual figure { margin: 0; }
+.project-entry .project-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: .6rem;
+  border: 1px solid var(--granito);
+}
+@media (max-width: 640px) {
+  .project-entry { grid-template-columns: 1fr; gap: 1rem; }
+}
