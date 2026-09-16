@@ -1,13 +1,22 @@
 ---
-title: "Proyectos"
+title: "Sobre este sitio"
 ---
 
-Actualmente trabajo en los siguiente proyectos de investigación:
+## Gredos
 
-## Futures4Forests
+La paleta **Gredos** está inspirada en una fotografía de líquenes sobre roca. Combina amarillos, grises y tonos de piedra que dan color a esta web.
 
-## QueVadis
+```{=html}
+<ul class="gredos-palette" aria-label="Colores de la paleta Gredos">
+  <li class="gredos-color"><span class="gredos-swatch" style="background-color: var(--liquen);" aria-hidden="true"></span><span class="gredos-color-name">Amarillo liquen</span><code>#D6D578</code></li>
+  <li class="gredos-color"><span class="gredos-swatch" style="background-color: var(--pizarra);" aria-hidden="true"></span><span class="gredos-color-name">Pizarra oscuro</span><code>#3E414B</code></li>
+  <li class="gredos-color"><span class="gredos-swatch" style="background-color: var(--gris-azulado);" aria-hidden="true"></span><span class="gredos-color-name">Gris azulado</span><code>#7D899B</code></li>
+  <li class="gredos-color"><span class="gredos-swatch" style="background-color: var(--granito);" aria-hidden="true"></span><span class="gredos-color-name">Rosa granito</span><code>#CBBAB5</code></li>
+  <li class="gredos-color"><span class="gredos-swatch" style="background-color: var(--ocre);" aria-hidden="true"></span><span class="gredos-color-name">Ocre terroso</span><code>#94764F</code></li>
+  <li class="gredos-color"><span class="gredos-swatch" style="background-color: var(--piedra);" aria-hidden="true"></span><span class="gredos-color-name">Blanco piedra</span><code>#F3F0EB</code></li>
+</ul>
+```
 
-## **Identifying, quantifying, and accounting for biases in forest restoration**
+## Cómo está hecha esta web
 
-## ForestAssembly
+Esta web está creada con [Quarto](https://quarto.org/) a partir de la plantilla [academic-website-template-Quarto](https://github.com/Pakillo/academic-website-template-Quarto), de Francisco Rodríguez-Sánchez (Pakillo). Gracias por compartir una base abierta para crear páginas académicas.
