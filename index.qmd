@@ -3,6 +3,7 @@ title: "Verónica Cruz-Alonso"
 about:
   template: trestles
   image: 2021.jpg
+  image-shape: round
   links:
     - icon: envelope
       href: "mailto: veronica.cral@gmail.com"
