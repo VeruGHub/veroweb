@@ -141,6 +141,10 @@ for (i in seq_len(nrow(articulos))) {
 }
 ```
 
-## Libros o capítulos de libro {#libros}
+## Libros {#libros}
 
-- Cruz-Alonso, Verónica; Andivia, Enrique; Castro-Díez, Pilar; Lázaro-Lobo, Adrián; Kaplan, Gordana; Nielsen, Anders Tærø; Puchałka, Radosław; Klisz, Marcin; Madsen, Palle (2026). Impact of planted forests on climate change mitigation. *En Guidelines for Climate Adaptive Forest Restoration and Reforestation Projects*, 353–382.
+Libros y capítulos de libro.
+
+- **Verónica Cruz-Alonso**; Andivia, Enrique; Castro-Díez, Pilar; Lázaro-Lobo, Adrián; Kaplan, Gordana; Nielsen, Anders Tærø; Puchałka, Radosław; Klisz, Marcin; Madsen, Palle (2026). Impact of planted forests on climate change mitigation. *En Guidelines for Climate Adaptive Forest Restoration and Reforestation Projects*, 353–382.
+
+- González Díaz, Patricia; Ruiz Benito, Paloma; Astigarraga Urcelay, Julen; **Verónica Cruz-Alonso**; Moreno Fernández, Daniel; Herrero Méndez, Asier; Gosálbez Ruiz, Jorge; de Zavala Gironés, Miguel Ángel (2020). *[Los bosques españoles como soluciones naturales frente al cambio climático: herramientas de análisis y modelización](https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/publicaciones/bosques_cambio_climatico_web_tcm30-522734.pdf)*. Oficina Española de Cambio Climático, Ministerio para la Transición Ecológica y el Reto Demográfico, Madrid. ISBN: 978-84-18508-38-7.
