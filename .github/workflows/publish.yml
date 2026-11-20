@@ -28,8 +28,17 @@ jobs:
         with:
           use-public-rspm: true
 
+      - name: Instalar bibliotecas del sistema
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libuv1-dev libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libfreetype6-dev
+
       - name: Instalar scholar
         run: Rscript -e 'install.packages(c("scholar", "knitr", "rmarkdown"), repos = "https://cloud.r-project.org")'
+
+      - name: Comprobar paquetes de R
+        run: |
+          Rscript -e 'for (p in c("scholar", "knitr", "rmarkdown")) { if (!requireNamespace(p, quietly = TRUE)) stop(paste("No se pudo instalar:", p)) }'
 
       - name: Actualizar copia de Google Scholar
         if: github.event_name == 'schedule'
