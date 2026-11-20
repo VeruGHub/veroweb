@@ -8,9 +8,10 @@ En [DatSciR](https://github.com/DatSciR) encontrarás todos los materiales de cu
 
 Te dejo aquí algunos de los más completos:
 
-[Git y GitHub](https://scholar.google.com/citations?user=mdktyS4AAAAJ&hl=es)
+- [Git y GitHub](https://github.com/DatSciR/intro_git-github/tree/main/centra)
 
-[Programación funcional en R](https://scholar.google.com/citations?user=mdktyS4AAAAJ&hl=es)
+- [Programación funcional en R](https://github.com/DatSciR/intro_prog_fun/tree/main/transmitting_science)
 
-[Ciencia de datos](https://scholar.google.com/citations?user=mdktyS4AAAAJ&hl=es)
+- [Ciencia de datos](https://github.com/DatSciR/ciencia_datos/tree/main/CADIC_2024)
 
+![¡Monchi es la mascota de nuestros cursos! Dibujo de Cristina Grajera.](images/environment.png)
