@@ -1,1 +1,1 @@
-Sitemap: https://pakillo.github.io/academic-website-template-Quarto/sitemap.xml
+Sitemap: https://VeruGHub.github.io/veroweb/sitemap.xml
