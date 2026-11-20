@@ -89,7 +89,7 @@ Este proyecto analiza los sesgos de la investigación sobre restauración forest
 :::
 
 ::: {.project-description}
-**Compartiendo información de comunidades de especies forestales del planeta de forma ética y reproducible**
+**Claves sobre la resiliencia de los ecosistemas para mejorar la restauración de los bosques**
 
 En *ForestAssembly* estudiamos qué factores determinan la recuperación y la resiliencia de los bosques frente a perturbaciones naturales y humanas a escala global. Analizo cómo influyen la diversidad de especies, las condiciones ambientales y el paisaje circundante, combinando resultados de estudios publicados con bases de datos globales. El proyecto fue financiado por el [Real Colegio Complutense en la Universidad de Harvard](https://rcc.harvard.edu/) durante 2020 y 2021.
 
