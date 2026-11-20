@@ -15,6 +15,8 @@ about:
       href: https://scholar.google.es/citations?user=mdktyS4AAAAJ&hl=es
     - text: "{{< iconify fa6-brands orcid size=1.2em title='ORCID' >}}"
       href: https://orcid.org/0000-0002-0642-036X
+    - text: "{{< iconify fa6-brands bluesky title='BlueSky'>}}"
+      href: https://bsky.app/profile/verusky.bsky.social
 ---
 
 Soy investigadora en ecología forestal y restauración de ecosistemas. Actualmente trabajo en la Universidad de Alcalá donde compagino la actividad investigadora con la docente. Soy miembro de los grupos de investigación [ForEcoLab](https://forecolab.web.uah.es/) e [BioInv](https://bioinv.web.uah.es/). También colaboro con FARLab, de la Universidad Complutense de Madrid.
