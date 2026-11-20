@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '23 7 * * 1'
+    - cron: '23 7 1 * *'
 
 concurrency:
   group: web-publication
@@ -29,18 +29,11 @@ jobs:
           use-public-rspm: true
 
       - name: Instalar scholar
-        run: Rscript -e 'install.packages("scholar", repos = "https://cloud.r-project.org")'
+        run: Rscript -e 'install.packages(c("scholar", "knitr", "rmarkdown"), repos = "https://cloud.r-project.org")'
 
-      - name: Actualizar artículos desde Google Scholar
-        run: Rscript -e 'source("R/scholar_pubs.R"); scholar_pubs("mdktyS4AAAAJ")'
-
-      - name: Guardar referencias pendientes de clasificación
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: referencias-pendientes
-          path: data/scholar-pending.csv
-          if-no-files-found: ignore
+      - name: Actualizar copia de Google Scholar
+        if: github.event_name == 'schedule'
+        run: Rscript -e 'source("R/publication_cache.R"); actualizar_publicaciones()'
 
       - name: Preparar Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -48,13 +41,14 @@ jobs:
       - name: Comprobar renderizado
         run: quarto render
 
-      - name: Conservar la última lista correcta
+      - name: Conservar la copia validada en el repositorio
+        if: github.event_name == 'schedule'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Publications.qmd data/scholar-pending.csv
+          git add data/scholar-cache.csv
           if ! git diff --cached --quiet; then
-            git commit -m "Actualizar publicaciones desde Google Scholar"
+            git commit -m "Actualizar copia de publicaciones de Scholar"
             git push origin HEAD:main
           fi
 

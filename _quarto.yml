@@ -4,6 +4,9 @@ project:
     - index.qmd
     - Projects.qmd
     - Publications.qmd
+    - posters.qmd
+    - material_docente.qmd
+    - web.qmd
 
 
 website:
@@ -11,23 +14,27 @@ website:
   description: "Web personal de Verónica Cruz-Alonso"
   site-url: https://VeruGHub.github.io/veroweb/
   repo-url: https://github.com/VeruGHub/veroweb
-  # favicon: logo.png
   twitter-card: true
-  #   creator: "@handle"
-  #   site: "@handle"
   open-graph: true
-  # google-analytics:
-  #   tracking-id: "UA-XXXXXXXX"
-  #   anonymize-ip: true
-  # cookie-consent: true
 
 
   navbar:
+    title: false
     right:
       - href: index.qmd
-        text: Inicio
-      - Projects.qmd
-      - Publications.qmd
+        text: Sobre mí
+      - href: Projects.qmd
+        text: Proyectos
+      - href: Publications.qmd
+        text: Publicaciones
+      - href: posters.qmd
+        text: Posters
+      - href: material_docente.qmd
+        text: Material docente
+      - href: https://verughub.github.io/easyclimate/
+        text: easyclimate
+      - href: web.qmd
+        text: Sobre este sitio
 
       # - icon: mastodon
       #   href: https://joinmastodon.org

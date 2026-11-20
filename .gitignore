@@ -6,5 +6,5 @@
 .httr-oauth
 /docs/
 /_site/
-
 **/*.quarto_ipynb
+actualizaciones.txt

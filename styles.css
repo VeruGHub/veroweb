@@ -29,3 +29,102 @@ div.quarto-about-trestles .about-entity .about-link:hover { background: var(--li
 .nav-footer { background: var(--granito); color: var(--pizarra); }
 .nav-footer a { color: var(--pizarra); }
 ::selection { background: var(--liquen); color: var(--pizarra); }
+
+.poster-card {
+  display: inline-flex;
+  vertical-align: top;
+  flex-direction: column;
+  width: 30%;
+  min-width: 220px;
+  margin: 0 2% 2rem 0;
+  padding: 0.8rem;
+  background: #ffffff;
+  border: 1px solid #CBBAB5;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(62, 65, 75, 0.12);
+}
+
+.poster-card iframe {
+  width: 100%;
+  height: 280px;
+  border: 1px solid #D6D578;
+  border-radius: 4px;
+  background: #F3F0EB;
+  pointer-events: none;
+}
+
+.poster-card h3 {
+  min-height: 3rem;
+  margin: 0.8rem 0 0.5rem;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.poster-download {
+  color: #3E414B;
+  font-weight: 600;
+}
+
+.poster-download:hover {
+  color: #94764F;
+}
+
+@media (max-width: 768px) {
+  .poster-card {
+    display: flex;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+/* Retrato circular sin deformar la fotografía. */
+div.quarto-about-trestles .about-entity img.about-image {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Paleta Gredos: muestras con etiquetas legibles fuera del color. */
+.gredos-palette {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 2rem;
+}
+.gredos-color {
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+}
+.gredos-swatch {
+  display: block;
+  height: 110px;
+  border: 1px solid rgba(62, 65, 75, .25);
+  border-radius: .6rem;
+}
+.gredos-color-name { font-weight: 600; }
+.gredos-color code { color: var(--pizarra); background: transparent; padding: 0; }
+
+/* Proyectos: imagen independiente y texto; una columna en móvil. */
+.project-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 1.5rem;
+  align-items: start;
+  margin: 1.5rem 0 2.5rem;
+}
+.project-entry > div { min-width: 0; }
+.project-visual p, .project-visual figure { margin: 0; }
+.project-entry .project-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: .6rem;
+  border: 1px solid var(--granito);
+}
+@media (max-width: 640px) {
+  .project-entry { grid-template-columns: 1fr; gap: 1rem; }
+}

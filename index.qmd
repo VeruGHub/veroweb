@@ -3,6 +3,7 @@ title: "Verónica Cruz-Alonso"
 about:
   template: trestles
   image: 2021.jpg
+  image-shape: round
   links:
     - icon: envelope
       href: "mailto: veronica.cral@gmail.com"
@@ -16,6 +17,8 @@ about:
       href: https://orcid.org/0000-0002-0642-036X
 ---
 
-Bienvenidos a mi web personal.
+Soy investigadora en ecología forestal y restauración de ecosistemas. Actualmente trabajo en la Universidad de Alcalá donde compagino la actividad investigadora con la docente. Soy miembro de los grupos de investigación [ForEcoLab](https://forecolab.web.uah.es/) e [BioInv](https://bioinv.web.uah.es/). También colaboro con FARLab, de la Universidad Complutense de Madrid.
 
-<!-- Añadir biografía, formación y experiencia de Verónica. -->
+Mi formación combina Ingeniería Forestal y Ciencias Ambientales, con un máster en restauración de ecosistemas. En mi tesis doctoral estudié la recuperación y restauración de los bosques mediterráneos en antiguos campos de cultivo.
+
+Me interesa comprender cómo se recuperan los bosques tras las perturbaciones y cómo favorecer su restauración en un contexto de cambio global. Mi investigación aborda desde la resiliencia de los ecosistemas forestales a la influencia del paisaje en la recuperación del bosque. 
