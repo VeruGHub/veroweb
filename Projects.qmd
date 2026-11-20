@@ -8,7 +8,7 @@ Actualmente participo en los siguientes proyectos de investigación:
 
 :::: {.project-entry}
 ::: {.project-visual}
-![](images/projects/wild2050.png){.project-image fig-alt="Renaturalización de paisajes agrarios en Cenicientos."}
+![](images/projects/WILD2050.png){.project-image fig-alt="Renaturalización de paisajes agrarios en Cenicientos."}
 :::
 
 ::: {.project-description}
@@ -48,7 +48,6 @@ FUNFOREST evalúa cómo las estrategias de gestión forestal pueden favorecer la
 
 :::
 ::::
-
 
 ## QueVADIS ![](images/projects/logo_quevadis.png){width=4% fig-alt="Logo del proyecto QueVADIS. Por Eliot Mompean."}
 
